@@ -9,10 +9,10 @@ baseurl: ""
 url: "https://JayAKCoughlan.github.io"
 
 disqus_shortname: JayAKCoughlan
-google_analytics: 
+google_analytics: UA-72862926-1
 
 share:
-  twitter_username: @JayAKCoughlan
+  twitter_username: JAKCoughlan
   fb_appid: 000000000000
 
 
