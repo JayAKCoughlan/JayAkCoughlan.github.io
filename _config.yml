@@ -1,18 +1,18 @@
-title: John Smith
-description: My Personal Blog
-author: John Smith
+title: Jay Coughlan
+description: My Portfolio
+author: Jay Coughlan
 logo: /static/img/avatar.png
-github: https://github.com/ashutosh2k12
-about: Freelance developer
+github: 
+about: Programmer and Game Designer
 
 baseurl: ""
-url: "https://codeasashu.github.io/hcz-jekyll-blog"
+url: "https://JayAKCoughlan.github.io"
 
-disqus_shortname: aboutashu
-google_analytics: UA-72862926-1
+disqus_shortname: JayAKCoughlan
+google_analytics: 
 
 share:
-  twitter_username: \#
+  twitter_username: @JayAKCoughlan
   fb_appid: 000000000000
 
 
