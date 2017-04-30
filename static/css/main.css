@@ -107,7 +107,7 @@ h2.blog-title-pro:after {
     height: 4px;
     margin-top: 16px;
     margin-left: 3px;
-    background: rgba(255, 255, 255, 0.72);
+    background: rgba(255, 0, 0, 0.72);
 }
 span.tags{ margin: 0 2px;cursor: pointer;display: inline-block;}
 .card .card-image .card-image-headline-custom{
