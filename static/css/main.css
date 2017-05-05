@@ -50,7 +50,7 @@ p.info a {
     margin: 20px 0 0;
 }
 .icon {
-    background: rgba(255, 255, 255, 0.63);
+    background: rgba(0, 100, 0, 0.63);
     border-radius: 100%;
     text-align: center;
     line-height: 20px;
@@ -62,12 +62,13 @@ p.info a {
     display: inline-block;
 }
 .icon:hover {
-    color: rgba(255, 255, 255, 0.63);
+    color: rgba(0, 100, 0, 0.63);
     background: #3FE56B/*009688*/;
 }
 .menu ul li {
     list-style: none;
     margin: 5px 0;
+    /*background-color: #12401E;*/
 }
 
 .menu ul li a:hover, .menu ul li a:focus, li.current-menu-item > a{
@@ -81,7 +82,7 @@ li.current-menu-item:before {
     position: absolute;
     left: 9px;
     vertical-align: middle;
-    background: #B20D14/*B8CA28*/;
+    background: #B8CA28/* B20D14*/;
 }
 .menu ul li a {
     font-size: 15px;
@@ -107,7 +108,7 @@ h2.blog-title-pro:after {
     height: 4px;
     margin-top: 16px;
     margin-left: 3px;
-    background: rgba(255, 0, 0, 0.72);
+    background: #B8CA28;/*rgba(255, 0, 0, 0.72);*/
 }
 span.tags{ margin: 0 2px;cursor: pointer;display: inline-block;}
 .card .card-image .card-image-headline-custom{
@@ -140,6 +141,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     line-height: 56px;
     font-size: 20px;
 }
+
 .error {
     color: #EF7272!important;
     font-size: 12px!important;
@@ -150,9 +152,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .navbar-toggle i {
     color: #BCCCBF;
 }
+
 .menu .list-group-item-heading, .menu .list-group-item-text{
     color:#fff!important;
+    background-color: #35BF59;
 }
+
 @media (max-width: 768px) {
     #portfolio-filter {
         margin-top: 0px;
