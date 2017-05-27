@@ -1,45 +1,62 @@
 [
 	{
-		"name": "Cool project 1",
-		"image": "placeholder.jpg",
-		"url": "/projects/project_cave_flier",
-		"startDate": "Jan 2014",
-		"endDate": "Jan 2014",
-		"devTime": "Three Weeks",
-		"tags": ["C#", "Visual Studio", "Unity3D", "do"],
-		"languages":["C#", "Java"],
-		"techs":["Visual Studio", "Unity3D", "do"]
-	},
-	{
-		"name": "Cool project 2",
+		"name": "Moon Child",
 		"image": "placeholder.jpg",
 		"url": "#",
-		"startDate": "Jan 2014",
-		"endDate": "Jan 2014",
+		"company": "Vancouver Film School",
+		"startDate": "July 2012",
+		"endDate": "October 2012",
+		"devTime": "Four months",
+		"tags": ["C#", "Mono Develop", "Unity3D"],
+		"languages":["C#"],
+		"techs":["Mono Develop", "Unity3D"]
+	},
+	{
+		"name": "Skippy's Gold",
+		"image": "placeholder.jpg",
+		"url": "#",
+		"company": "BCIT",
+		"startDate": "May 2015",
+		"endDate": "May 2015",
+		"devTime": "Five Weeks",
+		"tags": ["C#", "Mono Develop", "Unity"],
+		"languages":["C#"],
+		"techs":["Mono Develop", "Unity"]
+	},
+	{
+		"name": "Password Updater",
+		"image": "placeholder.jpg",
+		"url": "#",
+		"company": "Absolute Software",
+		"startDate":"April 2016",
+		"endDate": "June 2016",
+		"devTime": "Three Months",
+		"tags": ["Powershell"],
+		"languages":["Powershell Scripting Language"],
+		"techs":["Powershell"]
+	},
+	{
+		"name": "Dashboard Application",
+		"image": "placeholder.jpg",
+		"url": "#",
+		"startDate": "May 2016",
+		"endDate": "July 2016",
+		"devTime": "Two Months",
+		"company": "Absolute Software",
+		"tags": ["C#", "Visual Studio", "Selenium"],
+		"languages":["C#"],
+		"techs":["Visual Studio", "Selenium"]
+	},
+	{
+		"name": "Cave Flier",
+		"image": "placeholder.jpg",
+		"url": "/2017/05/19/project-cave-flier.html",
+		"company": "BCIT",
+		"startDate": "May 2016",
+		"endDate": "May 2016",
 		"devTime": "Three Weeks",
 		"tags": ["C#", "Visual Studio", "Unity"],
 		"languages":["C#"],
-		"techs":["Visual Studio", "Unity"]
-	},
-	{
-		"name": "Cool project 3",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"startDate": "Jan 2014",
-		"endDate": "Jan 2014",
-		"devTime": "Three Weeks",
-		"tags": ["C#", "Visual Studio", "Unity"],
-		"languages":["C#"],
-		"techs":["Visual Studio", "Unity"]
-	},
-	{
-		"name": "Cool project 4",
-		"image": "placeholder.jpg",
-		"startDate": "Jan 2014",
-		"endDate": "Jan 2014",
-		"devTime": "Three Weeks",
-		"tags": ["C#", "Java", "Visual Studio", "Unity"],
-		"languages":["C#", "Java"],
 		"techs":["Visual Studio", "Unity"]
 	}
 

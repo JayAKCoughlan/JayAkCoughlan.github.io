@@ -27,7 +27,7 @@
             <!-- not certain what this does-->
             <p class="info">
               {% if page.date %}
-                <span class="time">{{ page.date | date_to_string }}</span>
+                <span class="time">{{ site.data.projects[page.projectNum].name}}</span>
               {% endif %}
               {% if page.categories.size > 0 %}
                 <span class="categories">
