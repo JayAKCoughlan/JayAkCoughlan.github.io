@@ -178,3 +178,7 @@ footer {
 .pager li.active a {
     background: rgba(89, 148, 129, 0.3);
 }
+
+.well .well-about-card div{
+    background: #9ff49f
+}

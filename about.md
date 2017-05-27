@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-
+Jay is a new graduate from BCIT going out into the world of technology. 
 
 I've been going to school for what feels like forever. Please hire me.
 

@@ -1,9 +1,10 @@
 title: Jay Coughlan
 description: My Portfolio
 author: Jay Coughlan
-logo: /static/img/ProfilePic.png
+logo: ProfilePic.jpg
 github: "https://github.com/JayAKCoughlan/JayAkCoughlan.github.io.git"
 about: Programmer and Game Designer
+email: Jay.A.K.Coughlan@gmail.com
 
 baseurl: ""
 url: "https://JayAKCoughlan.github.io"
