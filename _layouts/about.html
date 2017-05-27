@@ -3,20 +3,30 @@ layout: default
 ---
 
 <div class="well">
-    <div >
-        <h2>About Jay Coughlan</h2>
+    <div class="well">
         <div class="row">
-            <div style="float:left" class="col-md-8">
-                <h4><b>Skills:</b> Programming, Game Design</h4>
-                <h4><b>Hobbies:</b> Video Games, Tea, Being Generally Nice</h4>
-                <h4><b>Education:</b> Vancouver Film School (Game Design), BCIT (Computer Systems Technology)</h4>
+            <div style="float:left" class="col-md-8 col-sm-6">
+                <h4 class="home-subtitle">About {{site.author}}</h4>
+                <table class="table table-responsive">
+                    <tr><td><b>Email:</b></td><td>Jay.A.K.Coughlan@gmail.com</h4></td></tr>
+                    <tr><td><b>Skills:</b></td><td>Programming, Game Design</h4></td></tr>
+                    <tr><td><b>Education:</b></td><td>Vancouver Film School (Game Design), BCIT (Computer Systems Technology)</h4></td></tr>
+                    <tr><td><b>Hobbies:</b></td><td>Video Games, Tea, Being Generally Nice</h4></td></tr>
+                </table>
             </div>
-            <img style="float:right" class="col-md-4" src = "{{site.logo}}"></img>
+            <img style="float:right" class="col-md-4 img-responsive" src = "{{site.logo}}"></img>
         </div>
     </div>
-    <div style="clear:both"></div>
+    <div style="clear:both"><br></div>
     <div>
         {{content}}
     </div>
 
 </div>
+
+<!--
+    <td><h4><i class="fa fa-envelope"></i></td>
+    <td><h4><i class="fa fa-tasks"></i></td>
+    <td><h4><i class="fa fa-graduation-cap"></i></td>
+    <td><h4><i class="fa fa-gamepad"></i></td>
+-->

@@ -1,7 +1,7 @@
 ---
-layout: project
+layout: projects
 title: Projects
 permalink: /projects/
 ---
 
-Few of my projects.
+These are a few of the projects I haved worked on. Please select one for more details.

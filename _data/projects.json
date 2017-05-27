@@ -2,29 +2,45 @@
 	{
 		"name": "Cool project 1",
 		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "Jan 2014",
-		"tags": ["Angular JS","API"]
+		"url": "/projects/project_cave_flier",
+		"startDate": "Jan 2014",
+		"endDate": "Jan 2014",
+		"devTime": "Three Weeks",
+		"tags": ["C#", "Visual Studio", "Unity3D", "do"],
+		"languages":["C#", "Java"],
+		"techs":["Visual Studio", "Unity3D", "do"]
 	},
 	{
 		"name": "Cool project 2",
 		"image": "placeholder.jpg",
 		"url": "#",
-		"date": "May 2014",
-		"tags": ["Android","PHP"]
+		"startDate": "Jan 2014",
+		"endDate": "Jan 2014",
+		"devTime": "Three Weeks",
+		"tags": ["C#", "Visual Studio", "Unity"],
+		"languages":["C#"],
+		"techs":["Visual Studio", "Unity"]
 	},
 	{
 		"name": "Cool project 3",
 		"image": "placeholder.jpg",
 		"url": "#",
-		"date": "June 2014",
-		"tags": ["HTML","JQuery","PHP"]
+		"startDate": "Jan 2014",
+		"endDate": "Jan 2014",
+		"devTime": "Three Weeks",
+		"tags": ["C#", "Visual Studio", "Unity"],
+		"languages":["C#"],
+		"techs":["Visual Studio", "Unity"]
 	},
 	{
 		"name": "Cool project 4",
 		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Android","nodejs"]
+		"startDate": "Jan 2014",
+		"endDate": "Jan 2014",
+		"devTime": "Three Weeks",
+		"tags": ["C#", "Java", "Visual Studio", "Unity"],
+		"languages":["C#", "Java"],
+		"techs":["Visual Studio", "Unity"]
 	}
 
 ]
