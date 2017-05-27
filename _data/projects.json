@@ -2,7 +2,7 @@
 	{
 		"name": "Moon Child",
 		"image": "placeholder.jpg",
-		"url": "#",
+		"url": "/2012/10/19/project-moon-child.html",
 		"company": "Vancouver Film School",
 		"startDate": "July 2012",
 		"endDate": "October 2012",
@@ -14,7 +14,7 @@
 	{
 		"name": "Skippy's Gold",
 		"image": "placeholder.jpg",
-		"url": "#",
+		"url": "/2015/05/31/project-skippys-gold.html",
 		"company": "BCIT",
 		"startDate": "May 2015",
 		"endDate": "May 2015",
@@ -26,7 +26,7 @@
 	{
 		"name": "Password Updater",
 		"image": "placeholder.jpg",
-		"url": "#",
+		"url": "/2016/06/31/project-password-updater.html",
 		"company": "Absolute Software",
 		"startDate":"April 2016",
 		"endDate": "June 2016",
@@ -38,7 +38,7 @@
 	{
 		"name": "Dashboard Application",
 		"image": "placeholder.jpg",
-		"url": "#",
+		"url": "/2016/07/31/project-dashboard-application.html",
 		"startDate": "May 2016",
 		"endDate": "July 2016",
 		"devTime": "Two Months",
