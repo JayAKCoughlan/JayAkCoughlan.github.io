@@ -9,7 +9,9 @@
 		"devTime": "Four months",
 		"tags": ["C#", "Mono Develop", "Unity3D"],
 		"languages":["C#"],
-		"techs":["Mono Develop", "Unity3D"]
+		"techs":["Mono Develop", "Unity3D"],
+		"repo":"n/a",
+		"download":"https://projects.myvfs.com/games/gd24_MoonChild/"
 	},
 	{
 		"name": "Skippy's Gold",
@@ -21,7 +23,9 @@
 		"devTime": "Five Weeks",
 		"tags": ["C#", "Mono Develop", "Unity"],
 		"languages":["C#"],
-		"techs":["Mono Develop", "Unity"]
+		"techs":["Mono Develop", "Unity"],
+		"repo":"n/a",
+		"download":"https://drive.google.com/drive/folders/0Bw9cDMvjbwdxfmIybWJtV2x5dDNmTi1sUHBhX3kwQS1lWFpwaU12UGRoWk8tSFQyM2NmOVk?usp=sharing"
 	},
 	{
 		"name": "Password Updater",
@@ -31,9 +35,11 @@
 		"startDate":"April 2016",
 		"endDate": "June 2016",
 		"devTime": "Three Months",
-		"tags": ["Powershell"],
+		"tags": ["Powershell, Powershell Scripting Language"],
 		"languages":["Powershell Scripting Language"],
-		"techs":["Powershell"]
+		"techs":["Powershell"],
+		"repo":"n/a",
+		"download":"n/a"
 	},
 	{
 		"name": "Dashboard Application",
@@ -45,7 +51,9 @@
 		"company": "Absolute Software",
 		"tags": ["C#", "Visual Studio", "Selenium"],
 		"languages":["C#"],
-		"techs":["Visual Studio", "Selenium"]
+		"techs":["Visual Studio", "Selenium"],
+		"repo":"n/a",
+		"download":"n/a"
 	},
 	{
 		"name": "Cave Flier",
@@ -57,7 +65,9 @@
 		"devTime": "Three Weeks",
 		"tags": ["C#", "Visual Studio", "Unity"],
 		"languages":["C#"],
-		"techs":["Visual Studio", "Unity"]
+		"techs":["Visual Studio", "Unity"],
+		"repo":"http://twokinds.keenspot.com/",
+		"download":"bitbucket.org/horizon19/cave-flier.git"
 	}
 
 ]
