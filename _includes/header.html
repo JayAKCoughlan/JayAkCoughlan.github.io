@@ -7,11 +7,13 @@
            <!-- This section is the Name, and icon-links--> 
             <div class="row-details">
               <div class="row-picture">
-               <!-- <img id="about" class="logo-img" src="/static/img/{{ site.logo }}" height="75px" width="75px">-->
+                <img id="about" class="logo-img" src="/static/img/{{ site.logo }}" height="75px" width="75px">
               </div>
               <h4 class="list-group-item-heading">{{ site.author }}</h4>
               <p class="list-group-item-text">{{ site.about }}</p>
-              {% include social_links.html %}
+              <p class="list-group-item-text"><i class="fa fa-envelope"></i> {{ site.email }}</p>
+              <p class="list-group-item-text"><i class="fa fa-phone"></i>  {{ site.data.resume[0].phone }}</p>
+              <!--{% include social_links.html %}-->
             </div>
             <!-- This is the navigation bar while it's collapsed-->
             <div class="navbar-header pull-right">
