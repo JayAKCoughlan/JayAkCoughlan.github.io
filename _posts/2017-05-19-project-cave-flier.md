@@ -3,7 +3,7 @@ layout: project
 title: Project
 subtitle: Cave Flier
 icon: fa-gamepad
-projectNum: 4
+projectNum: 5
 ---
 
 Cave Flier was our final industry project for BCIT. During these three weeks, we were tasked with coding a Virtual Reality game using *Unity3D* and *GoogleVR* platforms for our client, *Ace3DFX*. The game was a flight simulator where the player would use their phone's accelerometer to steer their way through a cave filled with randomly generated obstacles and power-ups. 
