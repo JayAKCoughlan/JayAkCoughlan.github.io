@@ -186,3 +186,11 @@ footer {
 .panel .download-panel .custom-panel{
     background: #9ff49f;
 }
+
+.table-blank .table th, .table-blank .table td { 
+     border-top: none !important; 
+     padding-right: 0px !important;
+     padding-left: 0px;
+     padding-bottom: 0px !important;
+     
+ }

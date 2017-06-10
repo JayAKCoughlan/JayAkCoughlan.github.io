@@ -3,12 +3,14 @@
       <!-- This div contains the author name, avatar, and link/icons-->
         <div class="row">
           <div class="col-md-3 col-sm-4 col-xs-12">
-
            <!-- This section is the Name, and icon-links--> 
-            <div class="row-details">
-              <div class="row-picture">
+            <div class="row-picture">
+              <a href src="{{ site.baseurl }}/about" style="text-decoration:none">
                 <img id="about" class="logo-img" src="/static/img/{{ site.logo }}" height="75px" width="75px">
-              </div>
+              </a>
+            </div>
+
+            <div class="row-details">
               <h4 class="list-group-item-heading">{{ site.author }}</h4>
               <p class="list-group-item-text">{{ site.about }}</p>
               <p class="list-group-item-text"><i class="fa fa-envelope"></i> {{ site.email }}</p>
@@ -25,7 +27,7 @@
           </div>
           <!-- this is the page title section-->
           <div class="col-md-9 col-sm-8 col-xs-12">
-           <a href="/#" style="text-decoration:none"> <h2 class="blog-title-pro"> {{ page.title }}</h2></a>
+           <a href="/" style="text-decoration:none"> <h2 class="blog-title-pro"> {{ page.title }}</h2></a>
             
             <!-- not certain what this does-->
             <p class="info">

@@ -19,6 +19,11 @@
     "text": "Resume",
     "url": "/resume",
     "icon": "fa-graduation-cap"
+  },
+  {
+    "text": "Contact Me",
+    "url": "/contact",
+    "icon": "fa-envelope"
   }
 ]
 
