@@ -1,4 +1,5 @@
 <ul class="list-separator nav navbar-nav well well-primary {{ page.layout }}">
+	
 <!-- This is everything inside the nav bar -->
 {% for i in site.data.urls %}
 	<!-- Not sure what this stiff does. something about URLS -->
@@ -23,4 +24,5 @@
 		<a href="{{ linkurl }}" target="{{ target }}"><i class="fa {{ i.icon }}"></i> {{ i.text }}</a>
 	</li>
 {% endfor %}
+<center>{% include social_links.html %}</center>
 </ul>
