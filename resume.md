@@ -8,7 +8,9 @@ title: Jay's Resume
 #### *Technical Skills* : 
 *	Programming Languages - C#, Java, C, C++, HTML + CSS
 *	Game Engines - Unity3D, DirectX 9
-*	Technical Tools - Visual Studio, Visual Studio Code, Windows Powershell, Microsoft Excel, Microsoft Word, Google Drive, Google Docs, GitHub, Windows OS, Linux OS (Ubuntu, Kali), Mac OS
+*   System Administration Tools - Windows Powershell, WMware, Jenkins, Windows Server 2008/12 
+*   Operating Systems - Windows OS, Linux OS (Ubuntu, Kali), Mac OS
+*	Technical Tools - Visual Studio, Visual Studio Code, Microsoft Excel, Microsoft Word, Google Drive, Google Docs, GitHub, 
 *	Image Editors - Adobe Photoshop, Paint tool Sai 
 
 #### *Soft Skills* :
@@ -55,7 +57,7 @@ Mar. 2012 - Jan. 2014		*Thrifty Foods - Service Clerk; Mill Bay, BC*
 #### *Cave Flier* :
 *	Part of a four-programmer team
 *	First person flight game with randomly generated obstacles and consumables
-*	Used C# and Unity
+*	Used C# and Unity3D
 *	Three-week production cycle
 *	Used GoogleVR
 
@@ -68,6 +70,7 @@ Mar. 2012 - Jan. 2014		*Thrifty Foods - Service Clerk; Mill Bay, BC*
 #### *Moon Child* :
 *	Worked as the sole programmer on five-person team using 
 *	Third person platformer with traditional and runner mechanics
+*	Used C# and Unity3D
 *	Four-month production cycle
 *	Two levels, two separate character controllers
 *	Available here at http://projects.myvfs.com/games/gd24_MoonChild/
@@ -77,9 +80,4 @@ Mar. 2012 - Jan. 2014		*Thrifty Foods - Service Clerk; Mill Bay, BC*
 ### ***Hobbies and Interests*** :
 
 Dragons, video games, fantasy novels, fantasy novels about dragons, Pokémon, Doctor Who, writing, drawing, dungeons and dragons, and not being killed by dragons in dungeons and dragons.
-
-
-### ***References*** :
-
-Please download the PDF version <a href="/static/files/{{ site.data.resume[0].file }}">here</a> for my references.
 
