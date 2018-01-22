@@ -25,27 +25,29 @@ title: Jay's Resume
 
 ### ***Work Experience*** :
 
+Sept. 2017 - Current        *Shaw Cable – eCare TSR; Vancouver, BC*
+* Strong communication with different team members
+* Troubleshooted technical issues with customers
+* Dealt with many different devices and configurations
+* Quickly learned tools and skills for better troubleshooting and resolution steps
+* Kept track of issues and incidents using Case Management ticketing system
+
+
 Jan. 2016 - Sept. 2016		*Absolute Software – Junior Systems Administrator; Vancouver, BC*
 *	Developed and updated dashboard application
 *	Worked with servers and server applications
 *	Developed Powershell scripts to manage passwords on systems
 *	Compared various products and handled business communications for potential use
 
-Mar. 2012 - Jan. 2014		*Thrifty Foods - Service Clerk; Mill Bay, BC*
-*	Strong communication with team members
-*	Assisted customers with various tasks
-*	Communicated and worked across departments
-*	Took ownership of tasks and responsibilities
-
 *****
 
 ### ***Education*** :
-*Jan. 2015 - Present		B.C.I.T.*
+Jan. 2015 - Present		*B.C.I.T.*
 *	Completed Term 1 – 3; Term 4 ongoing expected graduation on June 26th, 2017
 *	Completed BCIT's co-op program at Absolute Software (Jan 2016-Sept. 2016)
 *	Created a five-week game, ‘Skippy’s Gold’, for Android
 
-*Oct. 2011 - Oct. 2012		Vancouver Film School*
+Oct. 2011 - Oct. 2012		*Vancouver Film School*
 *	Diploma in Game Design
 *	Sole programmer on my team's three-month final project, 'Moon Child'
 *	Learned many facets of the game design process and documentation
