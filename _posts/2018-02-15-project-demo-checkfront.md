@@ -3,10 +3,10 @@ layout: project
 title: Project
 subtitle: Checkfront Demo
 icon: fa-calendar-check-o
-projectNum: 5
+projectNum: 6
 ---
 
-This is a test
+For a technical test, I am to incorporate the Checkfront widget into a website. This is the result of that. I did not make this widget, but it's kind of cool that it works here!
 
 <div>
 <script type="text/javascript" src="//jayscodingservices.checkfront.com/lib/interface--31.js"></script>
