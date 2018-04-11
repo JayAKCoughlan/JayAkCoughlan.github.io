@@ -15,6 +15,7 @@ For a technical test, I am to incorporate the Checkfront widget into a website. 
 <script>
 new DROPLET.Widget ({
 host: 'jayscodingservices.checkfront.com',
+Category:'11',
 target: 'CHECKFRONT_WIDGET_01',
 provider: 'droplet'
 }).render();
