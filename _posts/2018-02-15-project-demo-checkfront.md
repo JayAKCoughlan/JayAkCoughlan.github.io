@@ -15,10 +15,10 @@ For a technical test, I am to incorporate the Checkfront widget into a website. 
 <script>
 new DROPLET.Widget ({
 host: 'jayscodingservices.checkfront.com',
-Category_id:'11',
 target: 'CHECKFRONT_WIDGET_01',
+category_id: '11',
 provider: 'droplet'
 }).render();
 </script>
-<noscript><a href="jayscodingservices.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
+<noscript><a href="https://jayscodingservices.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
 </div>
