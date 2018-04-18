@@ -17,6 +17,7 @@ new DROPLET.Widget ({
 host: 'jayscodingservices.checkfront.com',
 target: 'CHECKFRONT_WIDGET_01',
 category_id: '11',
+partner_id: '3',
 provider: 'droplet'
 }).render();
 </script>
