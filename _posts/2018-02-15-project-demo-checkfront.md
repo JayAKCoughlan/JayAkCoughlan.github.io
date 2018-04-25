@@ -9,17 +9,17 @@ projectNum: 6
 For a technical test, I am to incorporate the Checkfront widget into a website. This is the result of that. I did not make this widget, but it's kind of cool that it works here!
 
 <div>
-<script type="text/javascript" src="//indianacaverns.checkfront.com/lib/interface--31.js"></script>
+<script type="text/javascript" src="//gesitmarina.checkfront.com/lib/interface--31.js"></script>
 <!-- CHECKFRONT BOOKING PLUGIN v23-->
-<div id="CHECKFRONT_WIDGET_01"><p id="CHECKFRONT_LOADER" style="background: url('//indianacaverns.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">Searching Availability...</p></div>
+<div id="CHECKFRONT_WIDGET_01"><p id="CHECKFRONT_LOADER" style="background: url('//gesitmarina.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">Searching Availability...</p></div>
 <script>
 new DROPLET.Widget ({
-host: 'indianacaverns.checkfront.com',
+host: 'gesitmarina.checkfront.com',
 target: 'CHECKFRONT_WIDGET_01',
 provider: 'droplet'
 }).render();
 </script>
-<noscript><a href="https://indianacaverns.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
+<noscript><a href="https://gesitmarina.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
 </div>
 
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam feugiat. Vivamus congue sem in velit. Vestibulum posuere, turpis ut placerat tristique, sem turpis cursus orci, at consequat lacus justo ac massa. Ut sed leo. Donec urna erat, mollis eu, ultricies vel, dictum at, dui. Aenean nunc augue, dictum at, lobortis vel, ultricies id, enim. Morbi aliquet volutpat tellus. Donec vel neque nec nisl laoreet bibendum. Fusce ac orci. Aliquam dapibus tempus nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas hendrerit tristique magna. In malesuada facilisis neque. Sed eu augue sed arcu vehicula imperdiet. Donec ligula arcu, congue nec, ornare eget, vestibulum in, lorem. Duis eget tortor semper urna eleifend vestibulum. Quisque tincidunt diam nec justo. In congue est id wisi. Fusce elementum. Nullam dolor. Vivamus in justo. Morbi rutrum laoreet lacus. Nam vitae nibh. Aenean suscipit porttitor libero. Integer in purus. Ut feugiat. Integer risus. Sed dictum, sem eu hendrerit pharetra, nunc mauris mollis erat, vel dapibus justo diam in elit. Vestibulum euismod massa ut augue. Etiam sagittis ligula sit amet risus. 
