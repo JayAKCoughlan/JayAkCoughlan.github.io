@@ -19,3 +19,19 @@ The second character controller was for Luna, when the puppy would turn into a w
 Other features I worked to create was enemy behavior, triggers that would activate when the player used their abilities on them, and shader manipulation to show enemies in a stunned state when attacked.
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Yp3FY65JZwA" frameborder="0" allowfullscreen></iframe></center>
+
+
+<div><script type="text/javascript" src="//kalemtest.checkfront.com/lib/interface--0.js"></script>
+<!-- CHECKFRONT BOOKING PLUGIN v25-->
+<div id="CHECKFRONT_WIDGET_01"><p id="CHECKFRONT_LOADER" style="background: url('//kalemtest.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">Searching Availability...</p></div>
+<script>
+new DROPLET.Widget ({
+host: 'kalemtest.checkfront.com',
+target: 'CHECKFRONT_WIDGET_01',
+item_id: '7',
+category_id: '1',
+style: 'color: dd0fdf; background-color: e91616',
+provider: 'droplet'
+}).render();
+</script>
+<noscript><a href="https://kalemtest.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript></div>

@@ -82,20 +82,6 @@
 		"techs":["Visual Studio", "Unity3D", "GoogleVR"],
 		"repo":"https://bitbucket.org/horizon19/cave-flier.git",
 		"download":"n/a"
-	},
-	{
-		"name": "Checkfront Demo",
-		"image": "code-placeholder.png",
-		"url": "/2018/02/15/project-demo-checkfront.html",
-		"company": "Checkfront",
-		"startDate": "-",
-		"endDate": "",
-		"devTime": "",
-		"tags": [],
-		"languages":[],
-		"techs":["Checkfront Droplet"],
-		"repo":"n/a",
-		"download":"n/a"
 	}
 
 ]
