@@ -7,29 +7,17 @@ icon: fa-calendar-check-o
 
 For a technical test, I am to incorporate the Checkfront widget into a website. This is the result of that. I did not make this widget, but it's kind of cool that it works here!
 
-<a href="https://sandcreekad.checkfront.com/reserve/"><button>BOOK NOW!</button></a>
+<a href="https://jayscodingservices.checkfront.com/reserve/"><button class="btn btn-success" style="align:center;">BOOK NOW!</button></a>
 
-<script type="text/javascript" src="//3glav.checkfront.com/lib/interface--0.js"></script>
+<script type="text/javascript" src="//jayscodingservices.checkfront.com/lib/interface--0.js"></script>
 <!-- CHECKFRONT BOOKING PLUGIN v25-->
-<div id="CHECKFRONT_WIDGET_01"><p id="CHECKFRONT_LOADER" style="background: url('//3glav.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">Searching Availability...</p></div>
+<div id="CHECKFRONT_WIDGET_01"><p id="CHECKFRONT_LOADER" style="background: url('//jayscodingservices.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">Searching Availability...</p></div>
 <script>
 new DROPLET.Widget ({
-host: '3glav.checkfront.com',
+host: 'jayscodingservices.checkfront.com',
 target: 'CHECKFRONT_WIDGET_01',
-options: 'tabs',
+category_id: '11,12,10,9,7,6,5,2,3,4,1',
 provider: 'droplet'
 }).render();
 </script>
-<noscript><a href="https://3glav.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
-
-<script type="text/javascript" src="//sandcreekad.checkfront.com/lib/interface--0.js"></script>
-<!-- CHECKFRONT BOOKING PLUGIN v25-->
-<div id="CHECKFRONT_WIDGET_02"><p id="CHECKFRONT_LOADER" style="background: url('//sandcreekad.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">Searching Availability...</p></div>
-<script>
-new DROPLET.Widget ({
-host: 'sandcreekad.checkfront.com',
-target: 'CHECKFRONT_WIDGET_02',
-provider: 'droplet'
-}).render();
-</script>
-<noscript><a href="https://sandcreekad.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
+<noscript><a href="https://jayscodingservices.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
