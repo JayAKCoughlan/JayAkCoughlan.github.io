@@ -7,29 +7,32 @@ icon: fa-calendar-check-o
 
 For a technical test, I am to incorporate the Checkfront widget into a website. This is the result of that. I did not make this widget, but it's kind of cool that it works here!
 
-<script type="text/javascript" src="//dev-jaycoughlan.checkfront.com/lib/interface--0.js"></script>
+<script type="text/javascript" src="//jayscodingservices.checkfront.com/lib/interface--0.js"></script>
 <!-- CHECKFRONT BOOKING PLUGIN v25-->
-<div id="CHECKFRONT_WIDGET_01"><p id="CHECKFRONT_LOADER" style="background: url('//dev-jaycoughlan.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">Searching Availability...</p></div>
+<div id="CHECKFRONT_WIDGET_01"><p id="CHECKFRONT_LOADER" style="background: url('//jayscodingservices.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">Searching Availability...</p></div>
 <script>
 new DROPLET.Widget ({
-host: 'dev-jaycoughlan.checkfront.com',
+host: 'jayscodingservices.checkfront.com',
 target: 'CHECKFRONT_WIDGET_01',
+item_id: '103',
+category_id: '19',
 options: 'tabs',
 provider: 'droplet'
 }).render();
 </script>
-<noscript><a href="https://dev-jaycoughlan.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
+<noscript><a href="https://jayscodingservices.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
 
-<div class="cf-droplet">
-    <script type="text/javascript" src="//jayscodingservices.checkfront.com/lib/interface--0.js"></script>
-    <!-- CHECKFRONT BOOKING PLUGIN v25-->
-    <div id="CHECKFRONT_WIDGET_02"><p id="CHECKFRONT_LOADER" style="background: url('//jayscodingservices.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">Searching Availability...</p></div>
-    <script>
-        new DROPLET.Widget ({
-        host: 'jayscodingservices.checkfront.com',
-        target: 'CHECKFRONT_WIDGET_02',
-        provider: 'droplet'
-        }).render();
-    </script>
-    <noscript><a href="https://jayscodingservices.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
-</div>
+<script type="text/javascript" src="//jayscodingbeta.checkfront.com/lib/interface--0.js"></script>
+<!-- CHECKFRONT BOOKING PLUGIN v25-->
+<div id="CHECKFRONT_WIDGET_02"><p id="CHECKFRONT_LOADER" style="background: url('//jayscodingbeta.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">Searching Availability...</p></div>
+<script>
+new DROPLET.Widget ({
+host: 'jayscodingbeta.checkfront.com',
+target: 'CHECKFRONT_WIDGET_02',
+item_id: '35',
+category_id: '11',
+options: 'tabs',
+provider: 'droplet'
+}).render();
+</script>
+<noscript><a href="https://jayscodingbeta.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking System &raquo;</a></noscript>
