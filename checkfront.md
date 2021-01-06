@@ -15,6 +15,7 @@ new DROPLET.Widget ({
 host: 'jayscodingbeta.checkfront.com',
 target: 'CHECKFRONT_WIDGET_01',
 tid: 'hide',
+popup: '63',
 options: 'tabs',
 provider: 'droplet'
 }).render();
