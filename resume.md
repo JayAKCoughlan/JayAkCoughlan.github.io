@@ -28,19 +28,19 @@ title: Jay's Resume
 ## ***Work Experience***
 
 #### **Checkfront - Technical Support Specialist;** *Victoria, BC (Mar. 2018 - Current)*
-**Technical Support Specialist (_2018 – 2019_)** 
+<br/>**Technical Support Specialist (_2018 – 2019_)** 
 -	Worked with clients to troubleshoot their system and provide unique recommendations 
 -	Lead our Internal Documentation Update project on Confluence 
 -	Used Jira to keep track of system bugs, improvements, and feature requests 
-**Technical Support Analyst (_2019 – 2021_)** 
+<br/>**Technical Support Analyst (_2019 – 2021_)** 
 -	Used advanced troubleshooting and debugging to solve escalated customer issues 
 -	Provided support and for internal team-members 
 -	Worked on and published bug fixes in the Checkfront platform 
-**Jr QA Automation Developer (_2021 – 2022_)** 
+<br/>**Jr QA Automation Developer (_2021 – 2022_)** 
 -	Worked with Team Raven to provide QA support 
 -	Developed and supported tools for automating the Zephyr workflow 
 -	Engaged in deployment responsibilities for nightly deploys 
-**Technical Support Analyst Lead (_2022 – Current_)** 
+<br/>**Technical Support Analyst Lead (_2022 – Current_)** 
 -	Developed and documented TSA processes both with and without external teams 
 -	Trained customer facing teams on bug ticket creation in Jira and troubleshooting GetYourGuide 
 -	Facilitated learning and 1-on-1 sessions with TSA team members 
