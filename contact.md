@@ -4,7 +4,7 @@ title: Contact Me
 permalink: /contact/
 ---
 
-### **Email**: Jay.A.K.Coughlan@gmail.com
+### **Email**: JayCoughlan@protonmail.com
 ### **Cell**: 250 508 7413
 
 <br/>

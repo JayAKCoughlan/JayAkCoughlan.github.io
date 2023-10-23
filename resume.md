@@ -28,14 +28,26 @@ title: Jay's Resume
 ## ***Work Experience***
 
 #### **Checkfront - Technical Support Specialist;** *Victoria, BC (Mar. 2018 - Current)*
-* Strong communication with team members and other teams
-* Troubleshooted technical issues with customers
-* Provided recommendations and solutions based on customer’s configurations
-* Headed our Internal Documentation Update project on Confluence
-* Used Jira to keep track of system bugs, improvements, and feature requests
+**Technical Support Specialist (_2018 – 2019_)** 
+-	Worked with clients to troubleshoot their system and provide unique recommendations 
+-	Lead our Internal Documentation Update project on Confluence 
+-	Used Jira to keep track of system bugs, improvements, and feature requests 
+**Technical Support Analyst (_2019 – 2021_)** 
+-	Used advanced troubleshooting and debugging to solve escalated customer issues 
+-	Provided support and for internal team-members 
+-	Worked on and published bug fixes in the Checkfront platform 
+**Jr QA Automation Developer (_2021 – 2022_)** 
+-	Worked with Team Raven to provide QA support 
+-	Developed and supported tools for automating the Zephyr workflow 
+-	Engaged in deployment responsibilities for nightly deploys 
+**Technical Support Analyst Lead (_2022 – Current_)** 
+-	Developed and documented TSA processes both with and without external teams 
+-	Trained customer facing teams on bug ticket creation in Jira and troubleshooting GetYourGuide 
+-	Facilitated learning and 1-on-1 sessions with TSA team members 
+
 
 <br/>
-#### **Shaw Cable – eCare TSR;** *Vancouver, BC (Sept. 2017 - Jan. 2018)*
+#### **Shaw Cable – eCare TSR;** *(Sept. 2017 - Jan. 2018)*
 * Strong communication with different team members
 * Troubleshooted technical issues with customers
 * Dealt with many different devices and configurations
@@ -67,15 +79,24 @@ title: Jay's Resume
 
 ## ***Projects***
 
+#### Zephyr Sprint Setup (Checkfront)
+_Every sprint Quality Assurance needed to set up Zephyr with all of the Jira tickets for that sprint. The goal of this project was to automate that, saving time and reducing error._
+-	Run over the terminal using PHP to connect Jira sprints and tickets to Zephyr testing suite 
+-	One-Month project between other testing responsibilities 
+-	Automatically carried over incomplete tickets from past sprints, and generated new tickets 
+
+<br/>
 #### **Cave Flier**
-*	Part of a four-programmer team
-*	First person flight game with randomly generated obstacles and consumables
-*	Used C# and Unity3D
-*	Three-week production cycle
-*	Used GoogleVR
+_Our Mid-Term project at B.C.I.T. was a short game experience developed as a team. Our goal was to build a algorithmically generated first-person flight simulation game with potentially infinite levels for mobile devices._
+-	Part of a four-programmer team
+-	First person flight game with randomly generated obstacles and consumables
+-	Used C# and Unity3D
+-	Three-week production cycle
+-	Used GoogleVR
 
 <br/>
 #### **Password Updater Script**
+_In hosting Ops we needed to change the default password of every new PC we purchased for security. The goal was to generate a custom password, changed it on the device, and saved it in PasswordState._
 *	Coded internal tools for Absolute Software
 *	Used Powershell, the Powershell markup language, and PasswordState API’s
 *	Three-month project in between other responsibilities
@@ -83,12 +104,12 @@ title: Jay's Resume
 
 <br/>
 #### **Moon Child**
+_Our final project at Vancouver Film School was a short game experience developed as a team. Our goal was to build a third-person platformer with two levels, voice acting, and enemy AI._
 *	Worked as the sole programmer on five-person team using 
 *	Third person platformer with traditional and runner mechanics
 *	Used C# and Unity3D
 *	Four-month production cycle
 *	Two levels, two separate character controllers
-*	Available here at http://projects.myvfs.com/games/gd24_MoonChild/
 		 
 *****
 
