@@ -2,12 +2,15 @@
 layout: default
 ---
 
-<div class="well">
-    <div class="well">
-        <div class="row">
-            <div style="float:left" class="col-md-8 col-sm-6">
-                <h4 class="home-subtitle">About {{site.author}}</h4>
-                <table class="table table-responsive">
+<div class="box">
+    <div class="row">
+        <div style="float:left" class="col-md-8 col-sm-6">
+            <h4 class="title is-family-monospace">> About {{site.author}}</h4>
+            <div class="columns">
+                <div class="column is-one-fifth">
+                    <img style="float:right" class="image" src = "/static/img/Jay_Coughlan_Full.png"></img>
+                </div>
+                <table class="table column">
                     <tr><td><b>Email:</b></td><td>JayCoughlan@protonmail.com</h4></td></tr>
                     <tr><td><b>Skills:</b></td><td>Programming, Game Development, C#, C++, Java</h4></td></tr>
                     <tr><td><b>Education:</b></td><td>
@@ -17,11 +20,10 @@ layout: default
                     <tr><td><b>Interests:</b></td><td>Dragons, video games, tea, fantasy novels, fantasy novels about dragons, Pokémon, writing, dungeons and dragons, and not being killed by dragons in dungeons and dragons.</h4></td></tr>
                 </table>
             </div>
-            <img style="float:right" class="col-md-4 img-responsive" src = "/static/img/ProfilePic.png"></img>
         </div>
     </div>
     <div style="clear:both"><br></div>
-    <div>
+    <div class="container content has-text-light">
         {{content}}
     </div>
 

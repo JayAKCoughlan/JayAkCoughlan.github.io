@@ -1,15 +1,18 @@
 ---
 layout: default
+title: Resume
 ---
 
-<table class="table table responsive">
-    <tr class="success"><td align="center"><h4><i class="fa fa-file-pdf-o"></i> Download the PDF Version <a href="/static/files/{{ site.data.resume[0].file }}">Here</a></h4></td></tr>
-</table>
-<br>
-<div class="well">
+<article class="message is-info">
+    <div class="message-body">
+        <h1><i class="fa fa-file-pdf-o"></i> Download the PDF Version <a href="/static/files/{{ site.data.resume[0].file }}">Here</a></h1>
+    </div>
+</article>
+
+<div class="content box">
     <center> 
-        <h1>{{ site.author }}</h1>
-        <h3> Email: {{ site.email }}</h3>
+        <h1 class="title is-family-monospace">{{ site.author }}</h1>
+        <h3 class="subtitle is-family-monospace"> Email: {{ site.email }}</h3>
     </center>
     <hr>
     <div>

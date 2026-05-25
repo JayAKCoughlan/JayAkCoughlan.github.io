@@ -2,53 +2,44 @@
 layout: default
 title: Project
 ---
-<article class="post">
 
-<!--<div class="alert alert-info alert-dismissable">
-	<strong>More projects are being added.</strong> Please check back soon!
-</div>-->
+	{{ content }}
+	{% include project_tags.html %}
+	
+	<div class="grid">
+		{% for i in site.data.projects reversed %}
+		<div class="card cell is-col-span-2" data-tags='{{ i.tags | jsonify | downcase }}'>
+			<div class="card-image">
+				<figure class="image is-3by2">
+					<img src="/static/projects/{{ i.image }}">
+				</figure>
+			</div>
 
-  <div class="post-content well">
-    {{ content }}
+			<div class="card-header">
+				{% if i.url %} <a href="{{ i.url }}"> {% endif %}
+				<h1 class="card-header-title is-family-monospace">> {{ i.name }}</h1>
+				{% if i.url %} </a> {% endif %}
+			</div>
 
-    <div class="projects row">
-    {% include project_tags.html %}
-    {% for i in site.data.projects reversed %}
-    <div class="project-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
-    	<div class="well project-outer">
-    		<div class="project-inner">
-    			<a href="/static/projects/{{ i.image }}" class="thickbox">
-    			<div class="project-img bordered" style="background-image: url('/static/projects/{{ i.image }}');"></div>
-                </a>
-                {% if i.url %} <a href="{{ i.url }}"> {% endif %}
-    			<h3 class="project-headlines">{{ i.name }}</h3>
-    			{% if i.url %} </a> {% endif %}
-    			<div class="project-content">
-    				<div class="tag-holder">
-    				{% if i.languages %}
-    					{% for j in i.languages %}
-    					<span class="label tags tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
-    					{% endfor %}
-    				{% endif %}
+			<div class="card-content">
+				<div class="content">
+					<p class="has-text-light">{{ i.preview | strip_html | truncatewords: 20 }}</p> <a href="{{ i.url | prepend: site.baseurl }}"><i>Read More</i></a>
+				</div>
+				<div class="tags content">
+					{% if i.languages %}
+						{% for j in i.languages %}
+							<span class="tag tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
+						{% endfor %}
+					{% endif %}
+
 					{% if i.techs %}
-    					{% for j in i.techs %}
-    					<span class="label tags tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
-    					{% endfor %}
-    				{% endif %}
-    				</div>
-    				
-    			</div>
-    			<div class="project-footer"> 
-    				{% if i.url %} 
-    				<a href="{{ i.url }}" class="btn btn-info btn-raised btn-sm project-link">View</a>
-    				{% endif %}
-    				<span class="project-timeline">{{ i.endDate }}</span>
-    			</div>
-    		</div>
-    	</div>
-        </div>
-    {% endfor %}
-    </div>
-  </div>
+						{% for j in i.techs %}
+							<span class="tag tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
+						{% endfor %}
+					{% endif %}
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
 
-</article>

@@ -12,4 +12,8 @@ We decided on *Unity3D* as the engine to run our game on because it built easily
 
 On top of being project captain, I was also responsible for teaching everyone how *Unity3D* worked, as none of them had experience, and helped them with how to code certain features and design systems so they would best run in this environment. I personally worked on the algorithm that created the random path, and drew the path tiles and treasure.
 
-<div class="row"> <img class="col-lg-4 col-md-4 col-sm-12 col-xs-12" src="/static/img/skippy-gold-open.png" title="Skippy's Gold Title Screen"> <img class="col-lg-4 col-md-4 col-sm-12 col-xs-12" src="/static/img/skippy-gold-play.png" title="Skippy's Gold gameplay"> <img src="/static/img/skippy-gold-lose.png" class="col-lg-4 col-md-4 col-sm-12 col-xs-12" title="Skippy's Gold Game Over Screen"></div>
+<div class="columns"> 
+    <div class="column"><img src="/static/img/skippys-gold-splash.png" title="Skippy's Gold Title Screen"></div>
+    <div class="column"><img src="/static/img/skippy-gold-play.png" title="Skippy's Gold gameplay"></div>
+    <div class="column"><img src="/static/img/skippy-gold-lose.png" title="Skippy's Gold Game Over Screen"></div>
+</div>

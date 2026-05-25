@@ -11,11 +11,12 @@
 		"languages":["C#"],
 		"techs":["Mono Develop", "Unity3D"],
 		"repo":"n/a",
-		"download":"https://projects.myvfs.com/games/gd24_MoonChild/"
+		"download":"n/a",
+		"preview":"A third-person plaformer with two levels, voice acting, and enemy AI. Developed as our Vancouver Film School final project."
 	},
 	{
 		"name": "Skippy's Gold",
-		"image": "skippys-gold-splash.png",
+		"image": "skippys-gold-splash_3by2.png",
 		"url": "/2015/05/31/project-skippys-gold.html",
 		"company": "BCIT",
 		"startDate": "May 2015",
@@ -25,7 +26,8 @@
 		"languages":["C#"],
 		"techs":["Mono Develop", "Unity3D"],
 		"repo":"n/a",
-		"download":"https://drive.google.com/drive/folders/0Bw9cDMvjbwdxfmIybWJtV2x5dDNmTi1sUHBhX3kwQS1lWFpwaU12UGRoWk8tSFQyM2NmOVk?usp=sharing"
+		"download":"https://drive.google.com/drive/folders/0Bw9cDMvjbwdxfmIybWJtV2x5dDNmTi1sUHBhX3kwQS1lWFpwaU12UGRoWk8tSFQyM2NmOVk?usp=sharing",
+		"preview":"A game project for B.C.I.T. with procedurally generated levels played on Mobile."
 	},
 	{
 		"name": "Password Updater",
@@ -39,7 +41,8 @@
 		"languages":["Powershell"],
 		"techs":["Powershell"],
 		"repo":"n/a",
-		"download":"n/a"
+		"download":"n/a",
+		"preview":"A script to update passwords for live systems using Powershell."
 	},
 	{
 		"name": "Dashboard Application",
@@ -53,7 +56,8 @@
 		"languages":["C#"],
 		"techs":["Visual Studio", "Selenium", "AutoIt"],
 		"repo":"n/a",
-		"download":"n/a"
+		"download":"n/a",
+		"preview":"An application to load, refresh, and cycle through different dashboard views displayed on Chrome Browsers"
 	},
 	{
 		"name": "H261 Compression",
@@ -67,11 +71,12 @@
 		"languages":["C#"],
 		"techs":["Visual Studio"],
 		"repo":"https://gitlab.com/Shirou14/4932A2.git",
-		"download":"n/a"
+		"download":"n/a",
+		"preview":"A school assignment exploring how JPG compression works by compiling my own version."
 	},
 	{
 		"name": "Cave Flier",
-		"image": "cave-flier-spread.png",
+		"image": "cave-flier-spread_3by2.png",
 		"url": "/2017/05/19/project-cave-flier.html",
 		"company": "BCIT/Ace3DFX",
 		"startDate": "May 2017",
@@ -80,8 +85,54 @@
 		"tags": ["C#", "Visual Studio", "Unity3D", "GoogleVR"],
 		"languages":["C#"],
 		"techs":["Visual Studio", "Unity3D", "GoogleVR"],
-		"repo":"https://bitbucket.org/horizon19/cave-flier.git",
-		"download":"n/a"
+		"repo":"n/a",
+		"download":"n/a",
+		"preview":"A Virtual Reality game where you play a skydiver gliding through caves with procedurally generated obstacles."
+	},
+	{
+		"name": "Zephyr Sprint Setup",
+		"image": "code-placeholder.png",
+		"url": "/2022/03/01/project-Zephyr-Sprint-Setup-Script.html",
+		"company": "Checkfront",
+		"startDate": "March 2022",
+		"endDate": "April 2022",
+		"devTime": "four weeks",
+		"tags": ["PHP", "Visual Studio Code", "Zephyr", "Jira", "API", "Internal Tool"],
+		"languages":["PHP"],
+		"techs":["Zephyr", "Jira", "API"],
+		"repo":"n/a",
+		"download":"n/a",
+		"preview":"An internal tool to speed up QAs processes when syncing new sprints in Jira to Zephyr"
+	},
+	{
+		"name": "Neon Roar",
+		"image": "Neon_Roar_Title_Screen.png",
+		"url": "/2022/05/01/project-Neon-Roar.html",
+		"company": "Fenris Publishing",
+		"startDate": "May 2022",
+		"endDate": "Ongoing",
+		"devTime": "Ongoing",
+		"tags": ["C#", "Visual Studio Code", "Unity3D", "Game"],
+		"languages":["C#"],
+		"techs":["Visual Studio Code", "Unity3D"],
+		"repo":"n/a",
+		"download":"n/a",
+		"preview":"A retro-style game where each character features a different gameplay style, combining all the hits of the 16-bit era into a rockin' synthwave-inspired package."
+	},
+	{
+		"name": "Stakeholder Notify Script",
+		"image": "code-placeholder.png",
+		"url": "/2024/04/17/project-Stakeholder-Notify.html",
+		"company": "Checkfront",
+		"startDate": "April 2024",
+		"endDate": "June 2024",
+		"devTime": "Six Weeks",
+		"tags": ["PHP", "Visual Studio Code", "Zendesk", "Jira", "API", "Internal Tool"],
+		"languages":["PHP"],
+		"techs":["Visual Studio Code", "Zendesk", "Jira", "API"],
+		"repo":"n/a",
+		"download":"n/a",
+		"preview":"An internal tool to automatically reach out to customer's who's bug reports have been resolved"
 	}
 
 ]

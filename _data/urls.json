@@ -18,21 +18,7 @@
   {
     "text": "Resume",
     "url": "/resume",
-    "icon": "fa-graduation-cap"
+    "icon": "fa-graduation-cap",
+    "layout": "resume"
   }
 ]
-
-/*
-,
-  {
-    "text": "Github",
-    "url": "https://github.com/Shirou14",
-    "icon": "fa-github"
-  },
-  {
-    "text": "XML Feed",
-    "url": "/feed.xml",
-    "icon": "fa-feed",
-    "target": _blank
-  }
-*/

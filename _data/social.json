@@ -1,10 +1,12 @@
 [
   {
     "icon": "fa-linkedin",
-    "link": "https://www.linkedin.com/in/jay-coughlan-39b4a641/"
+    "link": "https://www.linkedin.com/in/jay-coughlan-39b4a641/",
+    "name": "LinkedIn"
   },
   {
     "icon": "fa-github",
-    "link": "https://github.com/Shirou14"
+    "link": "https://github.com/Shirou14",
+    "name": "GitHub"
   }
 ]

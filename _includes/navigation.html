@@ -1,8 +1,6 @@
-<ul class="list-separator nav navbar-nav well well-primary {{ page.layout }}">
-	
+<ul class="menu-list list-separator nav navbar-nav well well-primary {{ page.layout }}">
 <!-- This is everything inside the nav bar -->
 {% for i in site.data.urls %}
-	<!-- Not sure what this stiff does. something about URLS -->
 	{% assign current = nil %}
 	{% assign pageurl = page.url | split:'/' | last %}
 	{% assign menuurl = i.url | split:'/' | last %}
@@ -20,9 +18,8 @@
 		{% assign current = 'current-menu-item' %} 
 	{% endif %}
 	<!-- this actually generates the links and images-->
-	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12 {{ current }} {{ pageurl }}">
-		<a href="{{ linkurl }}" target="{{ target }}"><i class="fa {{ i.icon }}"></i> {{ i.text }}</a>
+	<li class="{{ current }} is-family-monospace">
+		<a href="{{ linkurl }}" target="{{ target }}" class=" is-size-5"><i class="fa {{ i.icon }}"></i>{{ i.text }}</a>
 	</li>
 {% endfor %}
-<center>{% include social_links.html %}</center>
 </ul>
