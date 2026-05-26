@@ -3,11 +3,11 @@ layout: default
 ---
 <div class="box">
     <div>
-        <h1 class="title is-family-monospace">> {{site.data.projects[page.projectNum].name}}</h4>
+        <h1 class="title is-family-monospace has-text-primary-60"><i class= {% if page.icon %}"fa {{page.icon}}"{% else %}"fa fa-github-square"{% endif %}></i> {{site.data.projects[page.projectNum].name}}</h1>
         <div class="columns">
-            <img class="column is-one-third image" src="/static/img/{{site.data.projects[page.projectNum].image}}"></img>
+            <img class="column is-one-third image" src="/static/projects/{{site.data.projects[page.projectNum].image}}"></img>
 
-            <div class="column">
+            <div class="column has-text-light">
                 <table class="table is-fullwidth is-striped">
                     <tbody>
                         <tr>
@@ -46,12 +46,17 @@ layout: default
                         <tr class="success">
                             {% if site.data.projects[page.projectNum].repo != "n/a" %}
                                 <td>
-                                    <h4><i class="fa fa-github-square"></i> Find the Repo <a href="{{ site.data.projects[page.projectNum].repo }}">Here</a></h4> 
+                                    <h4><i class="fa fa-github-square"></i> Find the Repo <a href="{{ site.data.projects[page.projectNum].repo }}"><b class="is-clickable">Here</b></a></h4> 
                                 </td>
                             {% endif %}
                             {% if site.data.projects[page.projectNum].download != "n/a" %}
                                 <td>
-                                    <h4><i class="fa fa-file-zip-o"></i> Download the Project <a href="{{ site.data.projects[page.projectNum].download }}">Here</a></h4> 
+                                    <h4><i class="fa fa-file-zip-o"></i> Download the Project <a href="{{ site.data.projects[page.projectNum].download }}"><b class="is-clickable">Here</b></a></h4> 
+                                </td>
+                            {% endif %}
+                            {% if site.data.projects[page.projectNum].moreInfo != "n/a" %}
+                                <td>
+                                    <h4><i class="fa-solid fa-arrow-up-right-from-square"></i> Learn More <a href="{{ site.data.projects[page.projectNum].download }}"><b class="is-clickable">Here</b></a></h4> 
                                 </td>
                             {% endif %}
                         </tr>
@@ -66,7 +71,7 @@ layout: default
         </table>
     </div>
     <br>
-    <div class="content">
+    <div class="content has-text-light">
         {{content}}
     </div>
 </div>

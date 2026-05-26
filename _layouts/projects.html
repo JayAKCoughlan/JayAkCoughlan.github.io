@@ -4,7 +4,7 @@ title: Project
 ---
 
 	{{ content }}
-	{% include project_tags.html %}
+	<!-- {% include project_tags.html %} -->
 	
 	<div class="grid">
 		{% for i in site.data.projects reversed %}
@@ -17,29 +17,33 @@ title: Project
 
 			<div class="card-header">
 				{% if i.url %} <a href="{{ i.url }}"> {% endif %}
-				<h1 class="card-header-title is-family-monospace">> {{ i.name }}</h1>
+				<h1 class="card-header-title is-family-monospace title is-5 has-text-primary-60 is-clickable">{{ i.name }}</h1>
 				{% if i.url %} </a> {% endif %}
 			</div>
 
 			<div class="card-content">
 				<div class="content">
-					<p class="has-text-light">{{ i.preview | strip_html | truncatewords: 20 }}</p> <a href="{{ i.url | prepend: site.baseurl }}"><i>Read More</i></a>
+					<p class="has-text-light">{{ i.preview | strip_html }} </p> <a href="{{ i.url | prepend: site.baseurl }}"><button class="button is-info is-dark is-small">Read More</button></a>
 				</div>
-				<div class="tags content">
+
+			</div>
+			<div class="card-footer mt-3">
+				<div class="tags card-footer-item">
 					{% if i.languages %}
 						{% for j in i.languages %}
-							<span class="tag tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
+							<span class="tag tag-filter is-info" data-tag="{{ j | downcase }}">{{ j }}</span>
 						{% endfor %}
 					{% endif %}
 
 					{% if i.techs %}
 						{% for j in i.techs %}
-							<span class="tag tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
+							<span class="tag tag-filter is-success" data-tag="{{ j | downcase }}">{{ j }}</span>
 						{% endfor %}
 					{% endif %}
 				</div>
 			</div>
 		</div>
 		{% endfor %}
+		<div class="cell"></div>
 	</div>
 

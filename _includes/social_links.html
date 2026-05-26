@@ -1,7 +1,7 @@
 <ul class="menu-list list-separator nav navbar-nav well well-primary {{ page.layout }}">
     {% for link in site.data.social %}
-        <li class="is-family-monospace">
-            <a target="_blank" href="{{ link.link }}" class="is-size-5"><i class="fa {{ link.icon }} is-size-4"></i>{{ link.name }} </a>   
+        <li class="is-family-monospace mb-2">
+            <a target="_blank" href="{{ link.link }}" class="is-size-5 py-4"><i class="fa {{ link.icon }} is-size-4"></i> {{ link.name }} <i class="fa-solid fa-arrow-up-right-from-square is-size-6 has-text-primary-20"></i></a>   
         </li>
     {% endfor %}
 </ul>

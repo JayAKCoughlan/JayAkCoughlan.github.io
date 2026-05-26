@@ -12,6 +12,7 @@
 		"techs":["Mono Develop", "Unity3D"],
 		"repo":"n/a",
 		"download":"n/a",
+		"moreInfo":"n/a",
 		"preview":"A third-person plaformer with two levels, voice acting, and enemy AI. Developed as our Vancouver Film School final project."
 	},
 	{
@@ -27,6 +28,7 @@
 		"techs":["Mono Develop", "Unity3D"],
 		"repo":"n/a",
 		"download":"https://drive.google.com/drive/folders/0Bw9cDMvjbwdxfmIybWJtV2x5dDNmTi1sUHBhX3kwQS1lWFpwaU12UGRoWk8tSFQyM2NmOVk?usp=sharing",
+		"moreInfo":"n/a",
 		"preview":"A game project for B.C.I.T. with procedurally generated levels played on Mobile."
 	},
 	{
@@ -42,7 +44,8 @@
 		"techs":["Powershell"],
 		"repo":"n/a",
 		"download":"n/a",
-		"preview":"A script to update passwords for live systems using Powershell."
+		"moreInfo":"n/a",
+		"preview":"An internal tool to update passwords for live systems using Powershell."
 	},
 	{
 		"name": "Dashboard Application",
@@ -57,6 +60,7 @@
 		"techs":["Visual Studio", "Selenium", "AutoIt"],
 		"repo":"n/a",
 		"download":"n/a",
+		"moreInfo":"n/a",
 		"preview":"An application to load, refresh, and cycle through different dashboard views displayed on Chrome Browsers"
 	},
 	{
@@ -72,6 +76,7 @@
 		"techs":["Visual Studio"],
 		"repo":"https://gitlab.com/Shirou14/4932A2.git",
 		"download":"n/a",
+		"moreInfo":"n/a",
 		"preview":"A school assignment exploring how JPG compression works by compiling my own version."
 	},
 	{
@@ -85,8 +90,9 @@
 		"tags": ["C#", "Visual Studio", "Unity3D", "GoogleVR"],
 		"languages":["C#"],
 		"techs":["Visual Studio", "Unity3D", "GoogleVR"],
-		"repo":"n/a",
+		"repo":"https://github.com/Shirou14/cave-flier",
 		"download":"n/a",
+		"moreInfo":"n/a",
 		"preview":"A Virtual Reality game where you play a skydiver gliding through caves with procedurally generated obstacles."
 	},
 	{
@@ -102,6 +108,7 @@
 		"techs":["Zephyr", "Jira", "API"],
 		"repo":"n/a",
 		"download":"n/a",
+		"moreInfo":"n/a",
 		"preview":"An internal tool to speed up QAs processes when syncing new sprints in Jira to Zephyr"
 	},
 	{
@@ -117,7 +124,8 @@
 		"techs":["Visual Studio Code", "Unity3D"],
 		"repo":"n/a",
 		"download":"n/a",
-		"preview":"A retro-style game where each character features a different gameplay style, combining all the hits of the 16-bit era into a rockin' synthwave-inspired package."
+		"moreInfo":"https://www.kickstarter.com/projects/fenrispublishing/neon-roar",
+		"preview":"A retro-style game combining all the hits of the 16-bit era into a rockin' synthwave-inspired package."
 	},
 	{
 		"name": "Stakeholder Notify Script",
@@ -130,8 +138,9 @@
 		"tags": ["PHP", "Visual Studio Code", "Zendesk", "Jira", "API", "Internal Tool"],
 		"languages":["PHP"],
 		"techs":["Visual Studio Code", "Zendesk", "Jira", "API"],
-		"repo":"n/a",
+		"repo":"https://github.com/Shirou14/Stakeholder-Notify-Tool",
 		"download":"n/a",
+		"moreInfo":"n/a",
 		"preview":"An internal tool to automatically reach out to customer's who's bug reports have been resolved"
 	}
 
