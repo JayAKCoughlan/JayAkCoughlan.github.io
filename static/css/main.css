@@ -47,3 +47,11 @@ li.current-menu-item:before {
 a .is-clickable:hover, a.is-clickable:hover {
     text-decoration: underline !important;
 }
+
+img {
+    object-fit: contain;
+}
+
+.card-image .image img {
+    object-fit: cover;
+}

@@ -16,14 +16,14 @@ title: Project
 			</div>
 
 			<div class="card-header">
-				{% if i.url %} <a href="{{ i.url }}"> {% endif %}
+				{% if i.url %} <a href="/project/{{ i.url }}"> {% endif %}
 				<h1 class="card-header-title is-family-monospace title is-5 has-text-primary-60 is-clickable">{{ i.name }}</h1>
 				{% if i.url %} </a> {% endif %}
 			</div>
 
 			<div class="card-content">
 				<div class="content">
-					<p class="has-text-light">{{ i.preview | strip_html }} </p> <a href="{{ i.url | prepend: site.baseurl }}"><button class="button is-info is-dark is-small">Read More</button></a>
+					<p class="has-text-light">{{ i.preview | strip_html }} </p> <a href="{{ i.url | prepend: '/project/' | prepend: site.baseurl }}"><button class="button is-info is-dark is-small">Read More</button></a>
 				</div>
 
 			</div>
