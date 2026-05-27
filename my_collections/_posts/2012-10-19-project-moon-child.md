@@ -3,6 +3,8 @@ layout: project
 title: Project
 subtitle: Moon Child
 icon: fa-gamepad
+date: 2012-10-19
+category: project
 projectNum: 0
 ---
 

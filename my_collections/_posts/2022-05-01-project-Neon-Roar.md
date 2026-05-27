@@ -3,6 +3,8 @@ layout: project
 title: Project
 subtitle: Neon Roar
 icon: fa-gamepad
+date: 2022-05-01
+category: project
 projectNum: 7
 ---
 

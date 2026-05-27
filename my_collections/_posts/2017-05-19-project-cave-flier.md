@@ -3,6 +3,8 @@ layout: project
 title: Project
 subtitle: Cave Flier
 icon: fa-gamepad
+date: 2017-05-19
+category: project
 projectNum: 5
 ---
 

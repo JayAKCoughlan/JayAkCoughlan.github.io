@@ -15,3 +15,5 @@ gem 'rexml'
 gem 'csv'
 gem 'ffi'
 end
+
+gem "jekyll-liquify", "~> 0.1.0"

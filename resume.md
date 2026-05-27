@@ -37,7 +37,7 @@ title: Jay's Resume
 <br/>
 
 #### **Checkfront -** *Victoria, BC (Mar. 2018 - Jan. 2026)*
-**Jr Software Developer (_2024 – 2026_)** 
+**Software Developer (_2024 – 2026_)** 
 -   Worked on both backend and frontend of our highly available booking platform
 -   Part of an Agile team with developers, product managers, and designers to create new features
 -   Participated in code reviews with the team to ensure high quality and performant code 
@@ -47,7 +47,7 @@ title: Jay's Resume
 -	Trained customer facing teams on bug ticket creation in Jira and troubleshooting GetYourGuide 
 -	Facilitated learning and 1-on-1 sessions with TSA team members
 
-**Jr QA Automation Developer (_2021 – 2022_)** 
+**QA Automation Developer (_2021 – 2022_)** 
 -	Worked with development team to provide QA support 
 -	Developed and supported tools for automating the Zephyr workflow 
 -	Engaged in deployment responsibilities for nightly deploys 
@@ -75,7 +75,7 @@ title: Jay's Resume
 <br/>
 
 #### **Absolute Software –** *Vancouver, BC (Jan. 2016 - Sept. 2016)*
-**Junior Systems Administrator**
+**Jr Systems Administrator**
 *	Developed and updated dashboard application
 *	Worked with servers and server applications
 *	Developed Powershell scripts to manage passwords on systems

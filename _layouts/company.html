@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="box">
+    <div>
+        <h1 class="title is-family-monospace has-text-primary-60"><i class="fa-solid fa-building-user"></i> {{ page.title }}</h1>
+    </div>
+
+    <br/>
+
+    {{ content }}
+    
+    <br/>
+    
+    {% for role in site.categories['roles'] %}
+        {% if role.title == page.title %}
+            {% include role_card.html role_name=role.subtitle content=role.content id=role.date %}
+        {% endif %}
+    {% endfor %}
+</div>

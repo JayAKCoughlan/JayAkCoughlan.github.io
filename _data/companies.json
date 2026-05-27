@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Absolute Software",
+        "link": "https://www.absolute.com",
+        "path": "/companies/absolute-software.html"
+    },
+    {
+        "name": "Shaw Cable",
+        "link": "https://shaw.ca",
+        "path": "/companies/shaw-cable.html"
+    },
+    {
+        "name": "Checkfront",
+        "link": "https://www.checkfront.com",
+        "path": "/companies/checkfront.html"
+    },
+    {
+        "name": "Fenris Publishing",
+        "link": "https://www.fenrispublishing.com/info.php",
+        "path": "/companies/fenris-publishing.html"
+    }
+]

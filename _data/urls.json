@@ -16,6 +16,11 @@
     "icon": "fa-desktop"
   },
   {
+    "text": "Job History",
+    "url": "/jobs",
+    "icon": "fa-building-user"
+  },
+  {
     "text": "Resume",
     "url": "/resume",
     "icon": "fa-graduation-cap",

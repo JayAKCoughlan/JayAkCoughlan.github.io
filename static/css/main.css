@@ -27,9 +27,9 @@ li.current-menu-item:before {
     height: 59px;
     width: 5px;
     position: absolute;
-    left: 9px;
+    left: 3px;
     vertical-align: middle;
-    background: hsl(0, 58%, 23%)/*#B8CA28/* B20D14*/;
+    background: hsl(32, 100%, 80%)/*#B8CA28/* B20D14*/;
 }
 .menu ul li a {
     font-size: 15px;

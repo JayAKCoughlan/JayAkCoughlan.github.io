@@ -3,6 +3,8 @@ layout: project
 title: Project
 subtitle: H261 Compression
 icon: fa-gear
+date: 2017-04-30
+category: project
 projectNum: 4
 ---
 

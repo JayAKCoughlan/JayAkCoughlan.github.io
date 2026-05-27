@@ -3,6 +3,8 @@ layout: project
 title: Project
 subtitle: Zephyr Sprint Setup Script
 icon: fa-gear
+date: 2022-03-01
+category: project
 projectNum: 6
 ---
 

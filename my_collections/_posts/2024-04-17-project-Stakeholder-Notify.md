@@ -3,6 +3,8 @@ layout: project
 title: Project
 subtitle: Stakeholder Notify Script
 icon: fa-gear
+date: 2024-04-17
+category: project
 projectNum: 8
 ---
 

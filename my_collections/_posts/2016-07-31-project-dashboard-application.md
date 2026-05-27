@@ -3,6 +3,8 @@ layout: project
 title: Project
 subtitle: Dashboard Application
 icon: fa-gear
+date: 2016-07-31
+category: project
 projectNum: 3
 ---
 

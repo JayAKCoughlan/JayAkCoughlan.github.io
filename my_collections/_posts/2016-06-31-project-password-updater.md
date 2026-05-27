@@ -3,6 +3,8 @@ layout: project
 title: Project
 subtitle: Password Updater
 icon: fa-gear
+date: 2016-06-31
+category: project
 projectNum: 2
 ---
 

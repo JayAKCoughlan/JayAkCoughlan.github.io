@@ -7,18 +7,33 @@ title: Jay Coughlan's Portfolio
       {% for post in paginator.posts %}
       <div class="box">
           <!-- <div class="least-content">{{ post.date | date_to_string }}</div>-->
+          {% if post.category == 'project' %}
             <a href="{{ post.url | prepend: site.baseurl }}"><h1 class="title is-4 mt-0 is-family-monospace is-clickable has-text-primary-60">
               <i class= {% if post.icon %}"fa {{post.icon}}"{% else %}"fa fa-github-square"{% endif %}></i>
               {% if post.subtitle %}{{ post.subtitle }}
               {% else %}{{ post.title }}
               {% endif %}
             </h1></a>
-            <p class="has-text-light">{{ post.content | strip_html | truncatewords: 50 }}</p> <a href="{{ post.url | prepend: site.baseurl }}"><p class="is-clickable"><i>Read More</i></p></a>
+            <p class="has-text-light">{{ post.content | strip_html | truncatewords: 50 }}</p> <a href="{{ post.url | prepend: site.baseurl }}"><button class="button is-info is-dark is-small"><i>Read More</i></button></a>
+          {% elsif post.category == 'roles' %}
+            <a href="{{ site.data.companies[post.companies_index].path | prepend: site.baseurl }}#{{post.date}}"><h1 class="title is-4 mt-0 is-family-monospace is-clickable has-text-info-60">
+              <i class="fa-solid fa-id-badge"></i>
+              {{ post.title }} - {{ post.subtitle }} 
+            </h1></a>
+            <p class="has-text-light">{{ post.content | strip_html | truncatewords: 50 }}</p> <a href="{{ site.data.companies[post.companies_index].path | prepend: site.baseurl }}#{{post.date}}"><button class="button is-info is-dark is-small"><i>Read More</i></button></a>
+          {% else %}
+            <a href="{{ post.url | prepend: site.baseurl }}"><h1 class="title is-4 mt-0 is-family-monospace is-clickable has-text-primary-60">
+              <i class= "fa fa-github-square"></i>
+              {% if post.subtitle %}{{ post.subtitle }}
+              {% else %}{{ post.title }}
+              {% endif %}
+            </h1></a>
+            <p class="has-text-light">{{ post.content | strip_html | truncatewords: 50 }}</p> <a href="{{ post.url | prepend: site.baseurl }}"><button class="button is-info is-dark is-small"><i>Read More</i></button></a>
+          {% endif %}
       </div>
       <div class="list-group-separator"></div>
       {% endfor %}
     </div>
-   
 
     <!-- Pagination links -->
     {% if paginator.total_pages > 1 %}
