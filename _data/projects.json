@@ -142,6 +142,22 @@
 		"download":"n/a",
 		"moreInfo":"n/a",
 		"preview":"An internal tool to automatically reach out to customer's who's bug reports have been resolved"
+	},
+	{
+		"name": "FWG Website Theme",
+		"image": "fwg_main_page.png",
+		"url": "/2026/05/28/project-fwg-website-theme.html",
+		"company": "Furry Writers Guild",
+		"startDate": "April 2021",
+		"endDate": "January 2024",
+		"devTime": "",
+		"tags": ["HTML", "CSS", "Javascript", "Ghost"],
+		"languages":["HTML", "CSS", "Javascript"],
+		"techs":["Ghost"],
+		"repo":"https://github.com/Shirou14/FWG-Website-Theme",
+		"download":"n/a",
+		"moreInfo":"n/a",
+		"preview":"A website theme built around the Furry Writers Guild's needs to display their style. Theme was built for the Ghost platform."
 	}
 
 ]

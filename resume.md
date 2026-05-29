@@ -85,7 +85,7 @@ title: Jay's Resume
 
 ## ***Projects***
 
-#### **Neon Roar (Fenris Publishing)**
+#### **[Neon Roar](/project/{{ site.data.projects[7].url }}) (Fenris Publishing)**
 _A retro-style video game based on favorite, popular titles from the Sega Saturn. Play as one of four characters each with a different gameplay style in a Neon-Punk, 80’s horror style world._
 - Built using Unity 3D and C#
 - Worked asynchronously with a team of creators, including other developers, artists, and project leads
@@ -93,7 +93,15 @@ _A retro-style video game based on favorite, popular titles from the Sega Saturn
 
 <br/>
 
-#### **Support Stakeholder Notify Script (Checkfront)**
+#### **[Website Theme](/project/{{ site.data.projects[9].url }}) (Furry Writers' Guild)**
+_A website theme built around the Furry Writers Guild's needs to display their style. Theme was built for the Ghost platform._
+- Built with HTML, CSS, and Javascript for the Ghost blogging platform
+- Worked as an individual on the project outside of work hours
+- Gathered business requirements from stakeholders and translated into technical tasks
+
+<br/>
+
+#### **[Support Stakeholder Notify Script](/project/{{ site.data.projects[8].url }}) (Checkfront)**
 _Technical Support Analysts need to follow up on all Zendesk tickets attached to a deployed bug fix. The goal of this project was to automate re-opening the Zendesk tickets, saving time and reducing busy work._
 - A PHP tool to re-open support Zendesk conversations attached to deployed Jira tickets
 - Automatically re-open and apply a generic internal message to all tickets, assign tickets to last agent, and only follow up once if operator reached out multiple times
@@ -101,7 +109,7 @@ _Technical Support Analysts need to follow up on all Zendesk tickets attached to
 
 <br/>
 
-#### **Zephyr Sprint Setup (Checkfront)**
+#### **[Zephyr Sprint Setup](/project/{{ site.data.projects[6].url }}) (Checkfront)**
 _Every sprint Quality Assurance needed to set up Zephyr with all of the Jira tickets for that sprint. The goal of this project was to automate that, saving time and reducing error._
 -	Run over the terminal using PHP to connect Jira sprints and tickets to Zephyr testing suite 
 -	One-Month project between other testing responsibilities 
@@ -109,7 +117,7 @@ _Every sprint Quality Assurance needed to set up Zephyr with all of the Jira tic
 
 <br/>
 
-#### **Cave Flier (B.C.I.T)**
+#### **[Cave Flier](/project/{{ site.data.projects[5].url }}) (B.C.I.T)**
 _Our Mid-Term project at B.C.I.T. was a short game experience developed as a team. Our goal was to build an algorithmically generated first-person flight simulation game with potentially infinite levels for mobile devices._
 -	Part of a four-programmer team
 -	First person flight game with randomly generated obstacles and consumables
@@ -119,7 +127,7 @@ _Our Mid-Term project at B.C.I.T. was a short game experience developed as a tea
 
 <br/>
 
-#### **Password Updater Script (Absolute Software)**
+#### **[Password Updater Script](/project/{{ site.data.projects[2].url }}) (Absolute Software)**
 _In hosting Ops we needed to change the default password of every new PC we purchased for security. The goal was to generate a custom password, changed it on the device, and saved it in PasswordState._
 *	Coded internal tools for Absolute Software
 *	Used Powershell, the Powershell markup language, and PasswordState API’s
@@ -128,7 +136,7 @@ _In hosting Ops we needed to change the default password of every new PC we purc
 
 <br/>
 
-#### **Moon Child (Vancouver Film School)**
+#### **[Moon Child](/project/{{ site.data.projects[0].url }}) (Vancouver Film School)**
 _Our final project at Vancouver Film School was a short game experience developed as a team. Our goal was to build a third-person platformer with two levels, voice acting, and enemy AI._
 *	Worked as the sole programmer on five-person team using 
 *	Third person platformer with traditional and runner mechanics
